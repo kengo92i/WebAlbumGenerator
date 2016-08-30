@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: WebAlbumGenerator
+Version: 1.0.0
+Summary: WebAlbumGenerator written by Python
+Home-page: http://www.cc.kyoto-su.ac.jp/~g1144155/
+Author: IMAE KENGO
+Author-email: g1144155@cc.kyoto-su.ac.jp
+License: Lesser Affero General Public License v3
+Description: WebAlbumページを生成する
+Platform: Mac OS X (10.9.2)
