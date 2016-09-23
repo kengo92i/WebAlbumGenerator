@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(../../../../css%3Ffamily=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800.css);
 
 /* 基本設定 */
 
@@ -36,7 +36,7 @@ h3 {
 /* contents */
 
 #contents {
-  padding: 40px 60px 0;
+  padding: 40px 60px 0px;
   border: 1px solid #ccc;
   margin: 0 auto;
   background-image: url("images/bg-white.jpg");
@@ -116,26 +116,19 @@ h3 {
 
 /* 導入事例紹介 */
 
-.introduction{
-	text-align: center;
-	margin: auto;
-	padding: 20px 50px 50px 50px;
-	border: 2px solid #ccc;
-}
-
 .img_box {
     position:relative;
     display:block;
+    text-align: center;
+    border: 1px solid #ddd;
     width: 100%;
     height:100%;
-	max-width: 450px;
-    margin:20px;
+    margin:20px 0px;
     background-color:#000;
 }
 .img_box img {
 	display: block;
 	width: 100%;
-	max-width: 450px;
 }
 
 .img_box img:hover {
@@ -165,9 +158,49 @@ h3 {
    margin:0 auto;
 }
 
-/**
- * footer
- */
+/* demo */
+
+.img-demo {
+	display: block;
+	text-align: center;
+	margin: 20px 0px;
+	width: 100%;
+	border: 1px solid #ddd;
+	
+}
+
+.btn-demo {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+
+  padding: 0.4em 1em;
+  border: 1px solid #a0522d;
+  margin: 0 0 10px;
+  color: #fff;
+  background: #ffa500;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px -2px #111, inset 0 2px 5px 0 rgba(255, 255, 255, 0.3);
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-demo:hover,
+.btn-demo:focus,
+.btn-demo:active {
+  background: #f4a460;
+  text-decoration: none;
+}
+
+.btn-demo:active {
+  box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+  background: #ffa500;
+}
+
+/* footer */
 
 #footer {
   overflow: hidden;

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  	<img src="images/free.png" width="150" height="150" style="position: absolute; top: 0px; right: 0px;">
     <div id="container">
     
     	<p>
@@ -32,7 +31,7 @@
 		</div>
 		
         <div id="download-block">
-          <a class="btn-download" href="download/WebAlbumGenerator.app">
+          <a class="btn-download" href="download/WebAlbumGenerator.dmg">
             <strong>Download</strong>
             <span class="version">v1.0.0</span>
           </a>
@@ -42,37 +41,62 @@
 
 		<div class="blank"><hr></div>
 		
-		<h3>About</h3>
-		<p>
-			「 WebAlbumGenerator 」はWebアルバムページを自動生成してくれるソフトウェアです。
-			貴方はもうWebアルバムを作るのに時間をかける必要はありません。
-			写真をフォルダにまとめて、タイトルと日付を書いたら、クリック１つでWebアルバムページが完成します。
-			旅行やイベントの思い出などを貴方もWebページとして公開してみませんか？必要なのは"思い出"だけ。
-			HTMLやCSS、そしてJavaScriptの知識は必要ありません。それは「 WebAlbumGenerator 」の仕事です。
-		</p>
+		<div id="About">
 		
+			<h3>About</h3>
+			<p>
+				「 WebAlbumGenerator 」はWebアルバムページを自動生成してくれるソフトウェアです。
+				貴方はもうWebアルバムを作るのに時間をかける必要はありません。
+				写真をフォルダにまとめて、タイトルと日付を書いたら、クリック１つでWebアルバムページが完成します。
+				旅行やイベントの思い出などを貴方もWebページとして公開してみませんか？必要なのは"思い出"だけ。
+				HTMLやCSS、そしてJavaScriptの知識は必要ありません。それは「 WebAlbumGenerator 」の仕事です。
+			</p>
+		
+		</div><!-- About -->
 		
 		<div class="blank"><hr></div>
 
-		<h3>How to use?</h3>
-		
-		<img src="images/how-to-use/how-to-use1.png" class="how-to-use"/>
-		<img src="images/how-to-use/how-to-use2.png" class="how-to-use"/>
-		<img src="images/how-to-use/how-to-use3.png" class="how-to-use"/>
-		<img src="images/how-to-use/how-to-use4.png" class="how-to-use"/>
-		
-        <div class="blank"><hr></div>
-        
-        <h3>Introduction Example</h3>
-		<p>
-			実は、「 WebAlbumGenerator 」は既にたくさんの場所で使われています。その導入事例をご覧下さい。
-		</p>
-		
-		<div class="introduction">
+		<div id="how-to-use-area">
 			
+			<h3>How to use?</h3>
+		
+			<img src="images/how-to-use/how-to-use1.png" class="how-to-use"/>
+			<img src="images/how-to-use/how-to-use2.png" class="how-to-use"/>
+			<img src="images/how-to-use/how-to-use3.png" class="how-to-use"/>
+			<img src="images/how-to-use/how-to-use4.png" class="how-to-use"/>
+				
+			<div class="blank"><hr></div>
+
+			<h3>Demo</h3>
+
+			<div>
+				<img src="images/demo1.png" class="img-demo">
+				<a class="btn-demo" href="demo/20140804_WebAlbumSample.html" target="_blank">
+					<strong>Demo 1</strong>
+				</a>
+				<div class="support-os">Webアルバムのサンプルページです。</div>
+			</div>
+        
+			<div>
+				<img src="images/demo2.png" class="img-demo">
+				<a class="btn-demo" href="demo/20140804_WebAlbumSample2.html" target="_blank">
+					<strong>Demo 2</strong>
+				</a>
+				<div class="support-os">Webアルバムのサンプルページ２です。</div>
+			</div>
+		
+		</div><!-- how-to-use-area -->
+		
+		<div class="blank"><hr></div>
+        
+        
+        <div id="Example">
+        
+        	<h3>Example</h3>
 			<p>
-			導入事例
+				実は、「 WebAlbumGenerator 」は既にたくさんの場所で使われています。その導入事例をご覧下さい。
 			</p>
+		
 			<div class="img_box">
 				<a href="http://rudds.jpn.org/index-jp.html">
 					<img src="images/info01.png" />
@@ -98,7 +122,7 @@
 			</div>
 			
 			<div class="img_box">
-				<a href="#">
+				<a href="index.html#">
 					<img src="images/info03.png" />
 					<div class="img_comment">
 						<p>
@@ -109,39 +133,58 @@
 				</a>
 			</div>
 			
-		</div><!-- introduction -->
-		
+		</div><!-- Example -->
+
+
 		<div class="blank"><hr></div>
-
-		<h3>Download</h3>
 		
-		<div>
-        	<img src="images/icon.png">
-		</div>
+		<div id="Download">
 		
-		<div id="download-block">
-          <a class="btn-download" href="download/WebAlbumGenerator.app">
-            <strong>Download</strong>
-            <span class="version">v1.0.0</span>
-          </a>
-          <div class="support-os">MacOSX ~10.9.4</div>
-          <div class="support-os">Python ~2.7.5</div>
-        </div>
+			<h3>Download</h3>
+		
+			<div>
+        		<img src="images/document.png">
+			</div>
+		
+			<div id="download-block">
+				<a class="btn-download" href="download/Manual.pdf">
+					<strong>Manual</strong>
+					<span class="version">.pdf</span>
+				</a>
+				<div class="support-os">WebAlbumGeneratorのマニュアルです。</div>
+			</div>
+		
+		
+			<div>
+        		<img src="images/icon.png">
+			</div>
+					
+			<div id="download-block">
+				<a class="btn-download" href="download/WebAlbumGenerator.dmg">
+					<strong>Download</strong>
+					<span class="version">v1.0.0</span>
+				</a>
+				<div class="support-os">MacOSX ~10.9.4</div>
+				<div class="support-os">Python ~2.7.5</div>
+			</div>
 
-		<div>
-        	<img src="images/source.png">
-		</div>
 
-		<div id="download-block">
-          <a class="btn-download" href="download/WebAlbumGenerator-1.0.0.tar.gz">
-            <strong>Get a source</strong>
-            <span class="version">v1.0.0</span>
-          </a>
-          <div class="support-os">protected to <a href="download/LICENSE.txt">The MIT License</a></div>
-        </div>
+			<div>
+        		<img src="images/source.png">
+			</div>
+
+			<div id="download-block">
+				<a class="btn-download" href="download/WebAlbumGenerator-1.0.0.tar.gz">
+					<strong>Get a source</strong>
+					<span class="version">v1.0.0</span>
+				</a>
+				<div class="support-os">protected to <a href="download/LICENSE.txt">The MIT License</a></div>
+			</div>
+
+		</div><!-- Download -->
 
         <div id="footer">
-          <div> © 2014 IMAE KENGO All rights reserved. </div>
+          <div> © 2014-2016 IMAE KENGO All rights reserved. </div>
         </div><!-- footer -->
                 
       </div><!-- contents -->
