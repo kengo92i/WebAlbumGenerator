@@ -40,7 +40,7 @@ class Writer(object):
 		file.write("<body>\n<center>\n")
 		file.write("<font size=\"6\">"+self._year+"年"+self._month+"月"+self._day+"日 "+self._title+"</font><br>\n</center>\n<div id=\"wrap\">\n")
 
-		for nth in xrange(1, self._number_of_images):
+		for nth in xrange(1, self._number_of_images+1):
 			self.write_img(file, nth)
 		
 		return

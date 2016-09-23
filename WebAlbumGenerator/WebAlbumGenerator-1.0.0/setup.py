@@ -5,7 +5,7 @@ from distutils.core import setup
 
 setup(
 	name='WebAlbumGenerator',
-	version='1.0.0',
+	version='1.0.2',
 	description='WebAlbumGenerator written by Python',
         url='https://kengo92i.github.io/WebAlbumGenerator/',
 	author='IMAE KENGO',

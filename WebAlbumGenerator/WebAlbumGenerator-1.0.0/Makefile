@@ -8,6 +8,7 @@ PICAUTO	= PictureAutosize
 INSTDIR	= WebAlbumGenerator.app/Contents/Resources/Python/
 
 all:
+	if [ ! -e $(IMAGES) ] ; then mkdir $(IMAGES) ; fi
 	rm -rf ~/Desktop/WebAlbum
 
 clean:
@@ -15,6 +16,7 @@ clean:
 	if [ -e $(INSTDIR) ] ; then rm -f -r $(INSTDIR) ; fi
 
 test:
+	if [ ! -e $(IMAGES) ] ; then mkdir $(IMAGES) ; fi
 	python ${TARGET}
 	@open ~/Desktop/WebAlbum/index.html
 
