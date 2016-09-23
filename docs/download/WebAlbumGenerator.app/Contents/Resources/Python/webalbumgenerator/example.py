@@ -28,7 +28,7 @@ class Example(Tkinter.Tk):
 		if TRACE: print __name__, self.__init__.__doc__
 		Tkinter.Tk.__init__(self)
 		self.my_widgets()
-		
+
 	def my_widgets(self):
 		"""ウィジェットを設定する"""
 
@@ -47,7 +47,7 @@ class Example(Tkinter.Tk):
 		self._title_frame = LabelFrame(self, text = '題名')
 		self._title_frame.pack(padx = 5, pady = 5, fill=BOTH)
 
-		self._title = Text(self._title_frame, height=1)
+		self._title = Text(self._title_frame, height=1,font="ゴシック, 10")
 		self._title.insert(END, 'ほげほげページ')
 		
 		self._title.pack(fill = BOTH, expand = True)

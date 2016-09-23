@@ -10,6 +10,11 @@ mkdir -p ${output_b}
 i=1
 cd ${imagesDirectory}  
 
+(
+
+IFS="
+"
+
 for each in *
 do
 	if [ "$i" -lt 10 ]
@@ -36,3 +41,5 @@ for each in * #そのimagesディレクトリにあるファイルを1個づつ�
  echo ${imagesDirectory}/${each} =\> ${output_b}/${each};
  sips -z 110 150 ${each} --out ${output_s}/${each};
 done
+
+)
